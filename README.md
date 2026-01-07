@@ -13,35 +13,36 @@ This project implements a complete data architecture solution for FlexiMart usin
 ---
 
 ## Repository Structure
+
  
 Fleximart_project/
-│
-├── README.md
-├── .gitignore
-│
-├── data/
-│ ├── customers_raw.csv
-│ ├── products_raw.csv
-│ └── sales_raw.csv
-│
-├── part1-database-etl/
-│ ├── etl_pipeline.py
-│ ├── schema_documentation.md
-│ ├── business_queries.sql
-│ ├── requirements.txt
-│ └── data_quality_report.txt
-│
-├── part2-nosql/
-│ ├── nosql_analysis.md
-│ ├── mongodb_operations.js
-│ └── products_catalog.json
-│
-└── part3-datawarehouse/
-├── star_schema_design.md
-├── warehouse_schema.sql
-├── warehouse_data.sql
-└── analytics_queries.sql
----
+│                                                                                                                            
+├── README.md                                                                                                                
+├── .gitignore                                                                                                               
+│                                                                                                                            
+├── data/                                                                                                                    
+│ ├── customers_raw.csv                                                                                                      
+│ ├── products_raw.csv                                                                                                       
+│ └── sales_raw.csv                                                                                                          
+│                                                                                                                            
+├── part1-database-etl/                                                                                                      
+│ ├── etl_pipeline.py                                                                                                        
+│ ├── schema_documentation.md                                                                                                
+│ ├── business_queries.sql                                                                                                   
+│ ├── requirements.txt                                                                                                       
+│ └── data_quality_report.txt                                                                                                
+│                                                                                                                            
+├── part2-nosql/                                                                                                             
+│ ├── nosql_analysis.md                                                                                                      
+│ ├── mongodb_operations.js                                                                                                  
+│ └── products_catalog.json                                                                                                  
+│                                                                                                                            
+└── part3-datawarehouse/                                                                                                     
+├── star_schema_design.md                                                                                                    
+├── warehouse_schema.sql                                                                                                     
+├── warehouse_data.sql                                                                                                       
+└── analytics_queries.sql                                                                                                    
+---                                                                                                                          
 
 ## Raw Data Files
 
@@ -95,6 +96,7 @@ mysql -u root -p fleximart < part3-datawarehouse/warehouse_data.sql
 
 # Run Part 3 – OLAP Analytics Queries
 mysql -u root -p fleximart < part3-datawarehouse/analytics_queries.sql
+
 
 
 

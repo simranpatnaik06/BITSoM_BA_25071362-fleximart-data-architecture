@@ -1,5 +1,3 @@
-# BITSoM_BA_25071362-fleximart-data-architecture
-FlexiMart Data Architecture Project: ETL, NoSQL, and Data Warehouse implementation with analytics queries using Python, MySQL, and MongoDB.
 # FlexiMart Data Architecture Project
 
 **Student Name:** Simran Patnaik  
@@ -98,5 +96,4 @@ mysql -u root -p fleximart < part3-datawarehouse/warehouse_data.sql
 
 # Run Part 3 – OLAP Analytics Queries
 mysql -u root -p fleximart < part3-datawarehouse/analytics_queries.sql
-
 

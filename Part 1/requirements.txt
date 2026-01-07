@@ -1,0 +1,12 @@
+# ===============================
+# FlexiMart Project Python Dependencies
+# ===============================
+
+# pandas: for CSV reading, data cleaning, transformation, and merges
+pandas==2.1.0
+
+# SQLAlchemy: ORM / database connection library
+SQLAlchemy==2.0.20
+
+# mysql-connector-python: MySQL driver for SQLAlchemy connections
+mysql-connector-python==8.1.0

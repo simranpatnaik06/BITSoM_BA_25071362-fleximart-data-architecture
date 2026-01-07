@@ -1,0 +1,52 @@
+# =====================================================
+# FlexiMart Data Architecture Project - .gitignore
+# =====================================================
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+.idea/
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs & temp files
+# --------------------
+*.log
+*.tmp
+
+# --------------------
+# Database files
+# --------------------
+*.db
+
+# --------------------
+# Node / Mongo
+# --------------------
+node_modules/
+
+# --------------------
+# IMPORTANT (DO NOT IGNORE)
+# --------------------
+# CSV files (input data)
+# SQL scripts
+# Markdown documentation
+# JSON sample data
+# Python source files
+

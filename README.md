@@ -14,7 +14,7 @@ This project implements a complete data architecture solution for FlexiMart usin
 
 ## Repository Structure
  
-BITSoM_BA_25071362-fleximart-data-architecture/
+Fleximart_project/
 │
 ├── README.md
 ├── .gitignore
@@ -28,8 +28,8 @@ BITSoM_BA_25071362-fleximart-data-architecture/
 │   ├── etl_pipeline.py
 │   ├── schema_documentation.md
 │   ├── business_queries.sql
-│   ├── data_quality_report.txt
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── data_quality_report.txt
 │
 ├── part2-nosql/
 │   ├── nosql_analysis.md
@@ -96,4 +96,5 @@ mysql -u root -p fleximart < part3-datawarehouse/warehouse_data.sql
 
 # Run Part 3 – OLAP Analytics Queries
 mysql -u root -p fleximart < part3-datawarehouse/analytics_queries.sql
+
 
